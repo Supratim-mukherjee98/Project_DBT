@@ -3,10 +3,10 @@ version: 2
 
 models:
     - name: my_first_dbt_model
-      description: "This is my first dbt model, comment made by Supratim"
+      description: "Voila! This is Supratim's first model"
       columns:
           - name: id
-            description: "The primary key for this table"
+            description: "Adding column description. Checking, 1,2,3..."
             tests:
                 - unique
                 - not_null
